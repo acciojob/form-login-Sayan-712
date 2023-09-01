@@ -1,6 +1,7 @@
+const form=document.getElementById("form1");
 function getFormvalue() {
     //Write your code here
-	let first=document.getElementById("first").value;
-	let last=document.getElementById("last").value;
-alert(first+" "+last);
+	let fullName=form["fname"].value + " "+ form["lname"].value
+	
+alert(fullName);
 }
